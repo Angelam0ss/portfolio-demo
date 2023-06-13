@@ -26,6 +26,18 @@ html {
   a {
     color: #fff;
   }
+
+/* Logo */
+#logo {
+  position: fixed;
+  top: 24px;
+  left: 40px;
+  font-size: 32px;
+}
+
+
+
+
   /* Nav */
   #nav {
     position: fixed;
@@ -49,4 +61,17 @@ html {
   /* Page Layout */
   .section {
     min-height: 100vh;
+  }
+
+  #bio{
+    background-image: url('../images/bio-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .caseStudy {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
   }

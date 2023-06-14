@@ -1,4 +1,9 @@
 /* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+
 /* Variables */
 /* Overall */
 html {
@@ -35,7 +40,9 @@ html {
   font-size: 32px;
 }
 
-
+#Hero {
+  padding-top: 200px;
+}
 
 
   /* Nav */

@@ -17,6 +17,7 @@ html {
   }
   /* Typography */
   h1 {
+    padding-top: 200px;
   }
   h2 {
   }
@@ -81,4 +82,29 @@ html {
     height: 400px;
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  /* Gimmick */
+
+  .gimmick {
+    background-image: url('../images/hero-bg.svg');
+    background-size: cover;
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    top: calc(50vh - 400px);
+    left: calc(50vw - 400px);
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg) scale(1);
+    }
+    to {
+      transform: rotate(360deg) scale(2);
+    }
   }

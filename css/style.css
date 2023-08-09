@@ -10,8 +10,8 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    background-color: #bf5700;
-    color: white;
+    background-color: #F5ECE2;
+    color: #344E41;
     margin: 0;
     padding: 0;
   }
@@ -30,7 +30,7 @@ html {
   p {
   }
   a {
-    color: #fff;
+    color: #344E41;
   }
 
 /* Logo */
@@ -61,7 +61,7 @@ html {
     line-height: 100px;
   }
   #nav li:hover {
-    color: #335b47;
+    color: #D48C73;
     transform: scale(1.1);
     transition-duration: 500ms;
     cursor: pointer;
@@ -99,7 +99,7 @@ html {
   }
 
   .caseStudy {
-    background-color: white;
+    background-color: #A3B18A;
     height: 400px;
     width: 100%;
     margin-bottom: 20px;
